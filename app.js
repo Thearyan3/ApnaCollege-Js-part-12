@@ -76,3 +76,13 @@
 // In Web development, an API is generally a set of code features (e.g. methods, properties, events, and URLs) that a developer can use in their apps for interacting with components of a user's web browser, other software/hardware on the user's computer, or third-party websites and services.
 
 // JSON - JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+
+//JSON (Accessing data from JSON) - Whenever we send a request to an API then that API send a response and provide the JSON data in the form of a string. But We can't simply access the data from json because we first have to convert the JSON data into the JS Objects and then access it. 
+
+// let jsonRes = '{"fact":"A cat\u2019s heart beats nearly twice as fast as a human heart, at 110 to 140 beats a minute.","length":88}';
+// // JSON.parse(data) method to parse/convert a string data into a Js object.
+// let validRes = JSON.parse(jsonRes);
+// console.log(validRes);
+
+//AJAX (Asynchronous JavaScript and XML) - Ajax is basically a process in which we call a request to API and then we get some data in response from API and all this is done asynchronously. These calls are called Ajax calls. 
+ 
