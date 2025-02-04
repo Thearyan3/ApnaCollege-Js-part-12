@@ -99,3 +99,15 @@
 // 1) 400 :- BAD REQUEST
 // 1) 404 :- PAGE NOT FOUND (means that the called API does not exist and it even sends the response and tells more about the error.)
 // 1) 500 :- INTERNAL SERVER ERROR 
+
+
+//Our first API Request (using fetch)
+let url = "https://catfact.ninja/fact";
+
+fetch(url)
+.then((res) => {
+    console.log(res);
+})
+.catch((err) => {
+    console.log(err);
+})
