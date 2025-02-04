@@ -86,3 +86,16 @@
 
 //AJAX (Asynchronous JavaScript and XML) - Ajax is basically a process in which we call a request to API and then we get some data in response from API and all this is done asynchronously. These calls are called Ajax calls. 
  
+
+//HTTPS VERBS :
+//Examples - 
+//GET - It is a request in which we get some data or information on calling an API. 
+//POST - It is a request in which we want to send some information with the API call. 
+
+
+//STATUS CODES :
+//EXAMPLES - 
+// 1) 200 :- OK 
+// 1) 400 :- BAD REQUEST
+// 1) 404 :- PAGE NOT FOUND (means that the called API does not exist and it even sends the response and tells more about the error.)
+// 1) 500 :- INTERNAL SERVER ERROR 
